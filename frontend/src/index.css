@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { @apply bg-bg text-ink font-sans antialiased; margin: 0; }
+input, select { @apply bg-bg border border-line rounded-md px-2 py-1.5 text-sm text-ink outline-none focus:border-accent; }
+button:disabled { @apply opacity-40 cursor-not-allowed; }
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-thumb { background: #263646; border-radius: 4px; }
