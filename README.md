@@ -300,5 +300,4 @@ parts to watch on first run. `STATUS.md` lists exactly what was verified, what w
 Known gaps: Admin cannot yet manage the list of modules or algorithm descriptions; paging and segmentation are not simulated under Memory
 Management (see Virtual Memory); deadlock prevention is explained but not simulated; readers-writers implements reader preference only;
 terminal sessions live in server memory and are lost on restart; there is no Docker image for the app itself.
-#   i n t e r a c t i v e - o s - p l a t f o r m  
- 
+#
